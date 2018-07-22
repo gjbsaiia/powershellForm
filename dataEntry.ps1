@@ -1,4 +1,4 @@
-# Griffin Saiia
+# Griffin Saiia, James Lipitow
 # Career Fair Recruitment Improvement Project
 # Data Entry Example
 
