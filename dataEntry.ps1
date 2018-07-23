@@ -32,7 +32,7 @@ function Release-Ref ($ref) {
 }
 
 # function that encapsulates the data entry
-function Log-Data($data, $objExcel){
+function Log-Data($data){
     $objExcel = new-object -ComObject Excel.Application
 	$filePath = "C:\Users\Thinkbox admin\Desktop\recruitement.xlsx"
 	$boolean = CheckFile($filePath)
@@ -150,4 +150,3 @@ $form.Width = 350
 $form.Height = 450
 # Display the dialog
 $form.ShowDialog()
-
